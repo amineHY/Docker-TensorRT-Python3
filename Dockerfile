@@ -1,6 +1,6 @@
 FROM nvcr.io/nvidia/tensorrt:19.05-py3
 
-LABEL maintainer "Amine Hadj-Youcef  <amine.hadjyoucef@dronevolt.com>
+LABEL maintainer "Amine Hadj-Youcef  <hadjyoucef.amine@gmail.com>"
 
 
 # install python samples for tensorrt
@@ -23,7 +23,7 @@ RUN pip3 install numpy==1.16.4 \
 	pycuda==2018.1.1 \
 	Pillow==6.0.0 \
 	wget==3.2 \
-	matplotlib==3.1.0
+	matplotlib==3.0.3
 
 # set the working directory
 WORKDIR /workspace
